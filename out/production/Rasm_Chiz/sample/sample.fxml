@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <children>
+      <Canvas fx:id="canvas" height="530.0" width="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <HBox alignment="CENTER" layoutX="80.0" layoutY="269.0" prefHeight="78.0" prefWidth="100.0" spacing="10.0" style="-fx-background-color: #0C0C0C;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Button fx:id="oqrang" minHeight="10.0" mnemonicParsing="false" onAction="#chalkClicked" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #FFFFFF;" text="Oq">
+               <font>
+                  <Font name="Cambria Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="qizilrang" minHeight="10.0" mnemonicParsing="false" onAction="#chalkClicked" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #CD3F3F;" text="Qizil">
+               <font>
+                  <Font name="Cambria Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="yashilrang" minHeight="10.0" mnemonicParsing="false" onAction="#chalkClicked" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #5A9D7B;" text="Yashil">
+               <font>
+                  <Font name="Cambria Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="sariqrang" minHeight="10.0" mnemonicParsing="false" onAction="#chalkClicked" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #FFFF80;" text="Sariq">
+               <font>
+                  <Font name="Cambria Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="pushtirang" minHeight="10.0" mnemonicParsing="false" onAction="#chalkClicked" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #FF80C0;" text="Pushti">
+               <font>
+                  <Font name="Cambria Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="eraser" minHeight="10.0" mnemonicParsing="false" onAction="#chalkClicked" prefHeight="57.0" prefWidth="134.0" style="-fx-background-color: #FFFF56;" text="O'chirgich">
+               <font>
+                  <Font name="Cambria Bold" size="21.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
