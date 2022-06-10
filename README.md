@@ -1,2 +1,2 @@
 # Drawing-window
-Oynada Rasm chizish
+A very simple drawing window for young children
